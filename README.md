@@ -1,7 +1,7 @@
 # clone
 To mass clone links with gdutils
 
-#instructions
+# Instructions
 
 1.	Prerequisites gdutils must already be installed and service accounts properly configured
 		`https://github.com/roshanconnor123/gd-utils/`
