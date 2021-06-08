@@ -9,4 +9,5 @@ To mass clone links with gdutils
 3.	Place all the file/folder IDs that you intend to clone in `links.txt`
 4.	Enter your destination folder ID into the `clone.sh` script
 5.	Make the script executabe with `chmod +x clone.sh`
-6.	Run the script with `./clone.sh`
+6.	Place the script in the same directory as the gdutils folder together with the links.txt file
+7.	Run the script with `./clone.sh`
