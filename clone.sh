@@ -1,8 +1,9 @@
 #!/bin/bash
 
 DST="" #Enter your destination ID
-
+re='([-\w]{25,})'
 readarray -t content < links.txt
 for link in "${content[@]}"; do
-	node copy $link $DST -S #add -S to use service accounts
+	id=$( echo "$link" | grep --perl-regexp $re --only-matching )
+	node copy $id $DST -S #add -S to use service accounts
 done
